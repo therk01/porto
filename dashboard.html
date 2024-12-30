@@ -1,0 +1,250 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Landing Page
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="styles.css" rel="stylesheet" />
+ 
+ </head>
+ <body class="bg-gradient-to-r from-black via-gray-800 to-black text-white">
+  <header class="container flex-box mx-auto p-6 flex justify-between items-center fade-in">
+   <div class="text-3xl font-bold">
+    My Portfolio
+   </div>
+   <nav>
+    <ul class="hidden md:flex space-x-6">
+    </ul>
+   </nav>
+   <div class="flex space-x-4">
+   <a class="text-gray-400 hover:text-white" href="https://www.instagram.com/therk_001">
+    <i class="fab fa-instagram"></i>
+</a>
+    <a class="text-gray-400 hover:text-white" href="https://www.linkedin.com/in/rizky-kurniawan-b70159220">
+     <i class="fab fa-linkedin-in">
+     </i>
+    </a>
+    <a class="text-gray-400 hover:text-white" href="https://github.com/therk01">
+     <i class="fab fa-github">
+     </i>
+    </a>
+   </div>
+  </header>
+  <section class="container mx-auto text-center py-20 fade-in" id="home">
+   <h1 class="text-5xl font-bold mb-6">
+    Welcome to My Portfolio
+   </h1>
+   <p class="text-xl mb-6">
+    Showcasing my work and projects
+   </p>
+   <a href="#projects"><button
+  class="relative inline-flex items-center justify-center px-8 py-2.5 overflow-hidden tracking-tighter text-white bg-gray-800 rounded-md group"
+>
+  <span
+    class="absolute w-0 h-0 transition-all duration-500 ease-out bg-orange-600 rounded-full group-hover:w-56 group-hover:h-56"
+  ></span>
+  <span class="absolute bottom-0 left-0 h-full -ml-2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="w-auto h-full opacity-100 object-stretch"
+      viewBox="0 0 487 487"
+    >
+      <path
+        fill-opacity=".1"
+        fill-rule="nonzero"
+        fill="#FFF"
+        d="M0 .3c67 2.1 134.1 4.3 186.3 37 52.2 32.7 89.6 95.8 112.8 150.6 23.2 54.8 32.3 101.4 61.2 149.9 28.9 48.4 77.7 98.8 126.4 149.2H0V.3z"
+      ></path>
+    </svg>
+  </span>
+  <span class="absolute top-0 right-0 w-12 h-full -mr-3">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="object-cover w-full h-full"
+      viewBox="0 0 487 487"
+    >
+      <path
+        fill-opacity=".1"
+        fill-rule="nonzero"
+        fill="#FFF"
+        d="M487 486.7c-66.1-3.6-132.3-7.3-186.3-37s-95.9-85.3-126.2-137.2c-30.4-51.8-49.3-99.9-76.5-151.4C70.9 109.6 35.6 54.8.3 0H487v486.7z"
+      ></path>
+    </svg>
+  </span>
+  <span
+    class="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-gray-200"
+  ></span>
+  <span class="relative text-base font-semibold">view projects</span>
+</button> </a>
+
+  </section>
+  <section class="container mx-auto py-20 slide-up scroll-animation" id="about">
+   <div class="flex flex-col md:flex-row items-center">
+    <div class="md:w-1/2">
+     <img alt="A detailed portrait of the developer, smiling and looking professional" class="rounded-full mx-auto md:mx-0" height="400" src="img/p1.jpg" width="400"/>
+    </div>
+    <div class="md:w-1/2 mt-6 md:mt-0 md:pl-10">
+     <h2 class="text-4xl font-bold mb-4">
+      About Me
+     </h2>
+     <p class="text-lg">
+      I am a passionate developer with experience in creating dynamic and responsive web applications. I love to learn and explore new technologies.
+     </p>
+    </div>
+   </div>
+  </section>
+
+  
+  <section class="container mx-auto py-20" id="projects">
+   <h2 class="text-4xl font-bold text-center mb-10 slide-up scroll-animation">
+    Projects
+   </h2>
+   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+    <div class="bg-gray-800 p-6 rounded-lg project-card zoom-in scroll-animation">
+     <img alt="Screenshot of Project 1, a web application with a modern user interface" class="project-image rounded mb-4" src="project/1.png"/>
+     <h3 class="text-2xl font-bold mb-2">
+      Project 1
+     </h3>
+     <p class="text-lg">
+     website system converts credit into money
+     </p>
+    </div>
+    <div class="bg-gray-800 p-6 rounded-lg project-card zoom-in scroll-animation">
+     <img alt="Screenshot of Project 2, a mobile application with a sleek design" class="project-image rounded mb-4" src="project/2.png"/>
+     <h3 class="text-2xl font-bold mb-2">
+      Project 2
+     </h3>
+     <p class="text-lg">
+     vehicle rental system website
+     </p>
+    </div>
+    <div class="bg-gray-800 p-6 rounded-lg project-card zoom-in scroll-animation">
+     <img alt="Screenshot of Project 3, an e-commerce platform with various products" class="project-image rounded mb-4" src="project/3.png"/>
+     <h3 class="text-2xl font-bold mb-2">
+      Project 3
+     </h3>
+     <p class="text-lg">
+     portfolio website specifically for photographers
+     </p>
+    </div>
+    <div class="bg-gray-800 p-6 rounded-lg project-card zoom-in scroll-animation">
+     <img alt="Screenshot of Project 4, a social media application with interactive features" class="project-image rounded mb-4" src="project/4.png"/>
+     <h3 class="text-2xl font-bold mb-2">
+      Project 4
+     </h3>
+     <p class="text-lg">
+      landing page coffee shop
+     </p>
+    </div>
+    <div class="bg-gray-800 p-6 rounded-lg project-card zoom-in scroll-animation">
+     <img alt="Screenshot of Project 5, a portfolio website with a clean design" class="project-image rounded mb-4" src="https://storage.googleapis.com/a1aa/image/6Yaq2iAlDEJXG1efTxjU23fh3JlmT5zeBcAmLWf20wAxQ96fE.jpg"/>
+     <h3 class="text-2xl font-bold mb-2">
+      Project 5
+     </h3>
+     <p class="text-lg">
+      A portfolio website with a clean design and easy navigation.
+     </p>
+    </div>
+    <div class="bg-gray-800 p-6 rounded-lg project-card zoom-in scroll-animation">
+    <img alt="Screenshot of Project 6, a blog platform with various articles" class="project-image rounded mb-4" src="https://storage.googleapis.com/a1aa/image/cPyfOLVtaOSnMCgmcie0mZoRe1909ZcV0VgXnvGE9FrVUvePB.jpg"/>
+     <h3 class="text-2xl font-bold mb-2">
+      Project 6
+     </h3>
+     <p class="text-lg">
+      A blog platform with various articles and a user-friendly interface.
+     </p>
+    </div>
+   </div>
+</section>
+
+
+  <section class="container mx-auto py-20 slide-up scroll-animation" id="contact">
+   <h2 class="text-4xl font-bold text-center mb-10">
+    Contact Me
+   </h2>
+   <form class="max-w-lg mx-auto">
+    <div class="mb-4">
+     <label class="block text-lg font-bold mb-2" for="name">
+      Name
+     </label>
+     <input class="w-full p-2 rounded bg-gray-700 text-white" id="name" placeholder="Your Name" type="text"/>
+    </div>
+    <div class="mb-4">
+     <label class="block text-lg font-bold mb-2" for="email">
+      Email
+     </label>
+     <input class="w-full p-2 rounded bg-gray-700 text-white" id="email" placeholder="Your Email" type="email"/>
+    </div>
+    <div class="mb-4">
+     <label class="block text-lg font-bold mb-2" for="message">
+      Message
+     </label>
+     <textarea class="w-full p-2 rounded bg-gray-700 text-white" id="message" placeholder="Your Message" rows="4">
+     </textarea>
+    </div>
+    <button class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded" type="submit">
+     Send Message
+    </button>
+   </form>
+  </section>
+  <footer class="container mx-auto p-6 text-center fade-in">
+   <p>
+    © 2023 My Portfolio. All rights reserved.
+   </p>
+   <div class="flex justify-center space-x-4 mt-4">
+   <a class="text-gray-400 hover:text-white" href="https://www.instagram.com/therk_001">
+    <i class="fab fa-instagram"></i>
+</a>
+    <a class="text-gray-400 hover:text-white" href="https://www.linkedin.com/in/rizky-kurniawan-b70159220">
+     <i class="fab fa-linkedin-in">
+     </i>
+    </a>
+    <a class="text-gray-400 hover:text-white" href="https://github.com/therk01">
+     <i class="fab fa-github">
+     </i>
+    </a>
+   </div>
+  </footer>
+  <script>
+   const scrollElements = document.querySelectorAll('.scroll-animation');
+
+        const elementInView = (el, dividend = 1) => {
+            const elementTop = el.getBoundingClientRect().top;
+
+            return (
+                elementTop <= (window.innerHeight || document.documentElement.clientHeight) / dividend
+            );
+        };
+
+        const displayScrollElement = (element) => {
+            element.classList.add('visible');
+        };
+
+        const hideScrollElement = (element) => {
+            element.classList.remove('visible');
+        };
+
+        const handleScrollAnimation = () => {
+            scrollElements.forEach((el) => {
+                if (elementInView(el, 1.25)) {
+                    displayScrollElement(el);
+                } else {
+                    hideScrollElement(el);
+                }
+            });
+        };
+
+        window.addEventListener('scroll', () => {
+            handleScrollAnimation();
+        });
+
+        // Initial check to display elements already in view
+        handleScrollAnimation();
+  </script>
+ </body>
+</html>

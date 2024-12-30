@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Screen</title>
+    <link href="loading.css" rel="stylesheet" />
+   
+</head>
+<body>
+    <div class="loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <h2>Loading...</h2>
+
+    <script>
+        // Menambahkan waktu loading selama 3 detik
+        setTimeout(function() {
+            document.body.style.display = 'none'; // Sembunyikan loading screen
+            window.location.href = 'dashboard.html'; // Arahkan ke halaman utama
+        }, 2000); // 3000 ms = 3 detik
+    </script>
+</body>
+</html>
